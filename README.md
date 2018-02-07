@@ -47,7 +47,7 @@ Source code for the Vulkan loader and validation layers, Vulkan API header files
     * Tobine Ehlis <tobine@google.com>
     * Mark Lobodzinski <mark@lunarg.com>
 * Code of conduct: https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/blob/master/GOVERNANCE.md
-* Compiler requirements: MSVC 2013 / gcc (?)
+* Compiler requirements: MSVC 2013+ / gcc 4.8.2+ / clang 3.4+
 
 ## Vulkan-HPP
 Vulkan-Hpp is a set of lightweight C++ bindings for the Vulkan API.
