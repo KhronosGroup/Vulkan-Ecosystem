@@ -27,3 +27,14 @@ The SPIR-V Tools project provides an API and commands for processing SPIR-V modu
 * Contacts:
     * https://www.khronos.org/spir/spirv-tools-mailing-list/
     * dneto@google.com
+
+## SPIRV-Cross
+SPIRV-Cross is a practical tool and library for performing reflection on SPIR-V and
+disassembling SPIR-V back to high level languages.
+
+* Repository: https://github.com/KhronosGroup/SPIRV-Cross
+* License: [Apache](https://github.com/KhronosGroup/SPIRV-Cross/blob/master/LICENSE)
+* Contacts:
+	* hans-kristian.arntzen@arm.com (@HansKristian-ARM)
+* Compiler requirements: MSVC 2013 / gcc 4.8/4.9+ / clang 3.x+
+
