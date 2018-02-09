@@ -49,6 +49,15 @@ Source code for the Vulkan loader and validation layers, Vulkan API header files
 * Code of conduct: https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/blob/master/GOVERNANCE.md
 * Compiler requirements: MSVC 2013+ / gcc 4.8.2+ / clang 3.4+
 
+## VulkanTools
+Source code for various Vulkan Tools: vktrace/vkreplay, device simulation layer, API dump layer, fps monitor layer, screenshot layer, assistant layer, layer factory framework, and Vulkan installation analyzer.
+
+* Repository: https://github.com/LunarG/VulkanTools
+* License: [Apache](https://github.com/LunarG/VulkanTools/blob/master/LICENSE.txt)
+* Contact: David Pinedo <david@lunarg.com>
+* Code of conduct: https://github.com/LunarG/VulkanTools/blob/master/GOVERNANCE.md
+* Compiler requirements: MSVC 2013+ / gcc 4.8.2+ / clang 3.4+
+
 ## Vulkan-HPP
 Vulkan-Hpp is a set of lightweight C++ bindings for the Vulkan API.
 
