@@ -27,3 +27,13 @@ The SPIR-V Tools project provides an API and commands for processing SPIR-V modu
 * Contacts:
     * https://www.khronos.org/spir/spirv-tools-mailing-list/
     * dneto@google.com
+
+## gfx-rs
+gfx-rs is Vulkan-ic graphics abstraction layer in Rust, running on Vulkan, D3D12, Metal, and OpenGL, as well as providing [C bindings](https://github.com/gfx-rs/portability) as a Vulkan Portability implementation.
+
+* Repository: https://github.com/gfx-rs/gfx
+* License: [Apache](https://github.com/gfx-rs/gfx/blob/master/LICENSE-APACHE) or [MIT](https://github.com/gfx-rs/gfx/blob/master/LICENSE-MIT)
+* Contacts:
+  * [gfx-rs on Gitter](https://gitter.im/gfx-rs/gfx)
+  * [Dzmitry Malyshau](kvarkus@gmail.com)
+* Compiler requirements: Rust 1.22, gcc 5 / clang 3.4 for the portability layer
