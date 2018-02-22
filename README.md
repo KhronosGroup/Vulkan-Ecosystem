@@ -75,3 +75,23 @@ disassembling SPIR-V back to high level languages.
 * Contacts:
 	* hans-kristian.arntzen@arm.com (@HansKristian-ARM)
 * Compiler requirements: MSVC 2013 / gcc 4.8/4.9+ / clang 3.x+
+
+## gfx-rs
+gfx-rs is Vulkan-ic graphics abstraction layer in Rust, running on Vulkan, D3D12, Metal, and OpenGL, as well as providing [C bindings](https://github.com/gfx-rs/portability) as a Vulkan Portability implementation.
+
+* Repository: https://github.com/gfx-rs/gfx
+* License: [Apache](https://github.com/gfx-rs/gfx/blob/master/LICENSE-APACHE) or [MIT](https://github.com/gfx-rs/gfx/blob/master/LICENSE-MIT)
+* Contacts:
+  * [gfx-rs on Gitter](https://gitter.im/gfx-rs/gfx)
+  * [Dzmitry Malyshau](mailto:kvarkus@gmail.com)
+* Compiler requirements: Rust 1.22, gcc 5 / clang 3.4 for the portability layer
+
+## Vulkano
+Vulkano is a type-safe wrapper around Vulkan API in Rust.
+
+* Website: http://vulkano.rs/
+* Repository: https://github.com/vulkano-rs/vulkano
+* License: [Apache](https://github.com/vulkano-rs/vulkano/blob/master/LICENSE-APACHE) or [MIT](https://github.com/vulkano-rs/vulkano/blob/master/LICENSE-MIT)
+* Contacts:
+  * [Vulkano on Gitter](https://gitter.im/vulkano-rs/Lobby)
+* Compiler requirements: Rust 1.22, gcc-4.8
