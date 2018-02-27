@@ -17,7 +17,6 @@ Vulkan® Specification - formal documentation of the Vulkan API. This includes t
     * proprietary Khronos license for the specification
     * Creative Commons Attribution 4.0 for document sources
     * Apache 2 for code
-Creative Commons Attribution 4.0 for the 
 * Contacts:
     * [Vulkan forum](https://forums.khronos.org/forumdisplay.php/114-Vulkan)
 * Compiler requirements: python 3 (3.4.2 known working), ruby 2 (2.3.3 known working)
