@@ -14,9 +14,9 @@ Vulkan® Specification - formal documentation of the Vulkan API. This includes t
 * Website: https://www.khronos.org/registry/vulkan/
 * Repository: https://github.com/KhronosGroup/Vulkan-Docs
 * License: [mixed](https://github.com/KhronosGroup/Vulkan-Docs/blob/1.0/COPYING.md) &mdash; approximately:
-    * proprietary Khronos license for the specification
-    * Creative Commons Attribution 4.0 for document sources
-    * Apache 2 for code
+    * Proprietary Khronos license for the Vulkan Specification published by Khronos on its website
+    * CC-BY 4.0 for asciidoctor sources for the Specification and related documents such as the reference pages, style guide, and XML schema documentation.
+    * Apache 2 for code, including the XML registry defining API interfaces
 * Contacts:
     * [Vulkan forum](https://forums.khronos.org/forumdisplay.php/114-Vulkan)
 * Compiler requirements: python 3 (3.4.2 known working), ruby 2 (2.3.3 known working)
