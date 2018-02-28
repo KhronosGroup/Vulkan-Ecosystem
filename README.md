@@ -21,18 +21,6 @@ Vulkan® Specification - formal documentation of the Vulkan API. This includes t
     * [Vulkan forum](https://forums.khronos.org/forumdisplay.php/114-Vulkan)
 * Compiler requirements: python 3 (3.4.2 known working), ruby 2 (2.3.3 known working)
 
-## RenderDoc
-RenderDoc - a graphics debugger, currently available for Vulkan, D3D11, D3D12, and OpenGL development on Windows 7 - 10 and Linux.
-
-* Website: https://renderdoc.org/
-* Repository: https://github.com/baldurk/renderdoc
-* License: [MIT](https://github.com/baldurk/renderdoc/blob/v0.x/LICENSE.md)
-* Contacts:
-    * baldurk@baldurk.org
-    * [#renderdoc on freenode IRC](https://kiwiirc.com/client/irc.freenode.net/#renderdoc)
-* Code of conduct: [contributor covenant](https://github.com/baldurk/renderdoc/blob/v0.x/CODE_OF_CONDUCT.md)
-* Compiler requirements: MSVC 2015 / gcc 5 / clang 3.4
-
 ## SPIRV-Tools
 The SPIR-V Tools project provides an API and commands for processing SPIR-V modules.
 
@@ -63,14 +51,14 @@ Source code for the Vulkan loader and validation layers, Vulkan API header files
 * Code of conduct: https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/blob/master/GOVERNANCE.md
 * Compiler requirements: MSVC 2013+ / gcc 4.8.2+ / clang 3.4+
 
-## VulkanTools
-Source code for various Vulkan Tools: vktrace/vkreplay, device simulation layer, API dump layer, fps monitor layer, screenshot layer, assistant layer, layer factory framework, and Vulkan installation analyzer.
+## MoltenVK
+MoltenVK is an implementation of the high-performance, industry-standard Vulkan graphics and compute API, that runs on Apple's Metal graphics framework, bringing Vulkan compatibility to iOS and macOS
 
-* Repository: https://github.com/LunarG/VulkanTools
-* License: [Apache](https://github.com/LunarG/VulkanTools/blob/master/LICENSE.txt)
-* Contact: David Pinedo <david@lunarg.com>
-* Code of conduct: https://github.com/LunarG/VulkanTools/blob/master/GOVERNANCE.md
-* Compiler requirements: MSVC 2013+ / gcc 4.8.2+ / clang 3.4+
+* Repository: https://github.com/KhronosGroup/MoltenVK
+* License: [Apache](https://github.com/KhronosGroup/MoltenVK/blob/master/LICENSE)
+* Contacts:
+    * bill.hollings@brenwill.com
+* Compiler requirements: TBD
 
 ## Vulkan-HPP
 Vulkan-Hpp is a set of lightweight C++ bindings for the Vulkan API.
@@ -89,6 +77,27 @@ disassembling SPIR-V back to high level languages.
 * Contacts:
 	* hans-kristian.arntzen@arm.com (@HansKristian-ARM)
 * Compiler requirements: MSVC 2013 / gcc 4.8/4.9+ / clang 3.x+
+
+## RenderDoc
+RenderDoc - a graphics debugger, currently available for Vulkan, D3D11, D3D12, and OpenGL development on Windows 7 - 10 and Linux.
+
+* Website: https://renderdoc.org/
+* Repository: https://github.com/baldurk/renderdoc
+* License: [MIT](https://github.com/baldurk/renderdoc/blob/v0.x/LICENSE.md)
+* Contacts:
+    * baldurk@baldurk.org
+    * [#renderdoc on freenode IRC](https://kiwiirc.com/client/irc.freenode.net/#renderdoc)
+* Code of conduct: [contributor covenant](https://github.com/baldurk/renderdoc/blob/v0.x/CODE_OF_CONDUCT.md)
+* Compiler requirements: MSVC 2015 / gcc 5 / clang 3.4
+
+## VulkanTools
+Source code for various Vulkan Tools: vktrace/vkreplay, device simulation layer, API dump layer, fps monitor layer, screenshot layer, assistant layer, layer factory framework, and Vulkan installation analyzer.
+
+* Repository: https://github.com/LunarG/VulkanTools
+* License: [Apache](https://github.com/LunarG/VulkanTools/blob/master/LICENSE.txt)
+* Contact: David Pinedo <david@lunarg.com>
+* Code of conduct: https://github.com/LunarG/VulkanTools/blob/master/GOVERNANCE.md
+* Compiler requirements: MSVC 2013+ / gcc 4.8.2+ / clang 3.4+
 
 ## gfx-rs
 gfx-rs is Vulkan-ic graphics abstraction layer in Rust, running on Vulkan, D3D12, Metal, and OpenGL, as well as providing [C bindings](https://github.com/gfx-rs/portability) as a Vulkan Portability implementation.
