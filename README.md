@@ -56,8 +56,7 @@ MoltenVK is an implementation of the high-performance, industry-standard Vulkan 
 
 * Repository: https://github.com/KhronosGroup/MoltenVK
 * License: [Apache](https://github.com/KhronosGroup/MoltenVK/blob/master/LICENSE)
-* Contacts:
-    * bill.hollings@brenwill.com
+* Contacts: bill.hollings@brenwill.com
 * Compiler requirements: TBD
 
 ## Vulkan-HPP
