@@ -57,7 +57,7 @@ MoltenVK is an implementation of the high-performance, industry-standard Vulkan 
 * Repository: https://github.com/KhronosGroup/MoltenVK
 * License: [Apache](https://github.com/KhronosGroup/MoltenVK/blob/master/LICENSE)
 * Contacts: bill.hollings@brenwill.com
-* Compiler requirements: TBD
+* Compiler requirements: Xcode 9 / asciidoctor / python 3
 
 ## Vulkan-HPP
 Vulkan-Hpp is a set of lightweight C++ bindings for the Vulkan API.
