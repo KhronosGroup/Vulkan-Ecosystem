@@ -64,7 +64,7 @@ Vulkan-Hpp is a set of lightweight C++ bindings for the Vulkan API.
 
 * Repository: https://github.com/KhronosGroup/Vulkan-Hpp
 * License: [Apache](https://github.com/KhronosGroup/Vulkan-Hpp/blob/master/LICENSE.txt)
-* Compiler requirements: MSVC 2015+ / gcc 4.8.2+ / clang 3.3+
+* Compiler requirements: MSVC 2013+ / gcc 4.8.2+ / clang 3.3+
 * Contact: Markus Tavenrath <mtavenrath@nvidia.com>
 
 ## SPIRV-Cross
