@@ -57,15 +57,15 @@ MoltenVK is an implementation of the high-performance, industry-standard Vulkan 
 * Repository: https://github.com/KhronosGroup/MoltenVK
 * License: [Apache](https://github.com/KhronosGroup/MoltenVK/blob/master/LICENSE)
 * Contacts: bill.hollings@brenwill.com
-* Compiler requirements: Xcode 9 / asciidoctor / python 3
+* Compiler requirements: Xcode 9 / python 3
 
 ## Vulkan-HPP
 Vulkan-Hpp is a set of lightweight C++ bindings for the Vulkan API.
 
 * Repository: https://github.com/KhronosGroup/Vulkan-Hpp
 * License: [Apache](https://github.com/KhronosGroup/Vulkan-Hpp/blob/master/LICENSE.txt)
-* Compiler requirements: MSVC 2013+ / gcc 4.8.2+ / clang 3.3+
 * Contact: Markus Tavenrath <mtavenrath@nvidia.com>
+* Compiler requirements: MSVC 2013+ / gcc 4.8.2+ / clang 3.3+
 
 ## SPIRV-Cross
 SPIRV-Cross is a practical tool and library for performing reflection on SPIR-V and
