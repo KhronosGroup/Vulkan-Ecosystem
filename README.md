@@ -40,6 +40,20 @@ glslang is a GLSL and HLSL to SPIR-V compiler, usable both as a command-line too
 * Contact: David Neto <dneto@google.com>
 * Compiler requirements: C++11 compatible compiler (MSVC 2013+ on Windows)
 
+## DirectX Shader Compiler (DXC)
+DirectX Shader Compiler (DXC) is Microsoft's next-gen official HLSL compiler, based on LLVM/Clang.
+Apart from compiling HLSL into DXIL, it can also compile HLSL into SPIR-V, thanks to contribution from Google.
+
+* Landing page: https://github.com/Microsoft/DirectXShaderCompiler/wiki
+* Repository: https://github.com/Microsoft/DirectXShaderCompiler
+* License: University of Illinois Open Source License
+* Contacts:
+  * Lei Zhang <antiagainst@google.com> (for SPIR-V CodeGen)
+  * opencode@microsoft.com (for other issues)
+* Platform: Windows
+* Compiler requirement: Visual Studio 2017
+* Download: https://khr.io/dxcappveyorbuild (rolling release)
+
 ## Vulkan-LoaderAndValidationLayers
 Source code for the Vulkan loader and validation layers, Vulkan API header files, demos and tests.
 
