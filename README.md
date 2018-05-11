@@ -47,7 +47,9 @@ Apart from compiling HLSL into DXIL, it can also compile HLSL into SPIR-V, thank
 * Landing page: https://github.com/Microsoft/DirectXShaderCompiler/wiki
 * Repository: https://github.com/Microsoft/DirectXShaderCompiler
 * License: University of Illinois Open Source License
-* Contact: Lei Zhang <antiagainst@google.com> (for SPIR-V CodeGen), opencode@microsoft.com (for other issues)
+* Contacts:
+  * Lei Zhang <antiagainst@google.com> (for SPIR-V CodeGen)
+  * opencode@microsoft.com (for other issues)
 * Platform: Windows
 * Compiler requirement: Visual Studio 2017
 * Download: https://khr.io/dxcappveyorbuild (rolling release)
