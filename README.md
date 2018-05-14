@@ -49,7 +49,7 @@ Vulkan Header files and API registry
 * Contacts: 
     * For now: Karl Schultz <karl@lunarg.com>
 * Code of conduct: WIP
-* Compiler requirements: MSVC 2013+ / gcc 4.8.2+ / clang 3.4+
+* Compiler requirements: N/A
 
 ## Khronos/Vulkan-Loader
 Source code for the Vulkan loader 
