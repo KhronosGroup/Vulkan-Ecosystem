@@ -7,7 +7,7 @@ the Vulkan ecosystem.
 # Map of Vulkan Ecosystem projects
 The Vulkan ecosystem is a big place and there's a lot out there that is useful! In no particular order...
 
-## Vulkan® Specification
+## Khronos/Vulkan® Specification
 Vulkan® Specification - formal documentation of the Vulkan API. This includes the main API Specification, the reference (man) pages, the XML API Registry, and related tools and scripts.
 
 * Landing page: https://www.khronos.org/vulkan/
@@ -21,7 +21,7 @@ Vulkan® Specification - formal documentation of the Vulkan API. This includes t
     * [Vulkan forum](https://forums.khronos.org/forumdisplay.php/114-Vulkan)
 * Compiler requirements: python 3 (3.4.2 known working), ruby 2 (2.3.3 known working)
 
-## SPIRV-Tools
+## Khronos/SPIRV-Tools
 The SPIR-V Tools project provides an API and commands for processing SPIR-V modules.
 
 * Repository: https://github.com/KhronosGroup/SPIRV-Tools
@@ -31,7 +31,7 @@ The SPIR-V Tools project provides an API and commands for processing SPIR-V modu
     * David Neto <dneto@google.com>
 * Compiler requirements: C++11 compatible compiler (MSVC 2013+ on Windows)
 
-## glslang
+## Khronos/glslang
 glslang is a GLSL and HLSL to SPIR-V compiler, usable both as a command-line tool as well as a library.
 
 * Website: https://www.khronos.org/opengles/sdk/tools/Reference-Compiler/
@@ -39,6 +39,75 @@ glslang is a GLSL and HLSL to SPIR-V compiler, usable both as a command-line too
 * License: 3-clause BSD
 * Contact: David Neto <dneto@google.com>
 * Compiler requirements: C++11 compatible compiler (MSVC 2013+ on Windows)
+
+
+## Khronos/Vulkan-Headers
+Vulkan Header files and API registry
+
+* Repository: https://github.com/KhronosGroup/Vulkan-Headers
+* License: [Apache](https://github.com/KhronosGroup/Vulkan-Headers/blob/master/LICENSE.txt)
+* Contacts: 
+    * For now: Karl Schultz <karl@lunarg.com>
+* Code of conduct: WIP
+* Compiler requirements: MSVC 2013+ / gcc 4.8.2+ / clang 3.4+
+
+## Khronos/Vulkan-Loader
+Source code for the Vulkan loader 
+
+* Repository: https://github.com/KhronosGroup/Vulkan-Loader
+* License: [Apache](https://github.com/KhronosGroup/Vulkan-Loader/blob/master/LICENSE.txt)
+* Contacts:
+    * Lenny Komow <lenny@lunarg.com>
+* Code of conduct: https://github.com/KhronosGroup/Vulkan-Loader/blob/master/GOVERNANCE.md
+* Compiler requirements: MSVC 2013+ / Python 3 / gcc 4.8.2+ / clang 3.4+ 
+
+## Khronos/Vulkan-ValidationLayers
+Source code for the Vulkan validation layers
+
+* Repository: https://github.com/KhronosGroup/Vulkan-ValidationLayers
+* License: [Apache](https://github.com/KhronosGroup/Vulkan-ValidationLayers/blob/master/LICENSE.txt)
+* Contacts:
+    * Tobine Ehlis <tobine@google.com>
+    * Mark Lobodzinski <mark@lunarg.com>
+* Code of conduct: https://github.com/KhronosGroup/Vulkan-ValidationLayers/blob/master/GOVERNANCE.md
+* Compiler requirements: MSVC 2013+ / gcc 4.8.2+ / clang 3.4+
+
+## Khronos/Vulkan-Tools
+Source code for the Vulkan utilities and tools
+
+* Repository: https://github.com/KhronosGroup/Vulkan-Tools
+* License: [Apache](https://github.com/KhronosGroup/Vulkan-Tools/blob/master/LICENSE.txt)
+* Contacts:
+    * Tobine Ehlis <tobine@google.com>
+    * Mark Lobodzinski <mark@lunarg.com>
+* Code of conduct: https://github.com/KhronosGroup/Vulkan-Tools/blob/master/GOVERNANCE.md
+* Compiler requirements: MSVC 2013+ / gcc 4.8.2+ / clang 3.4+
+
+## Khronos/MoltenVK
+MoltenVK is an implementation of the high-performance, industry-standard Vulkan graphics and compute API, that runs on Apple's Metal graphics framework, bringing Vulkan compatibility to iOS and macOS
+
+* Repository: https://github.com/KhronosGroup/MoltenVK
+* License: [Apache](https://github.com/KhronosGroup/MoltenVK/blob/master/LICENSE)
+* Contacts: bill.hollings@brenwill.com
+* Compiler requirements: Xcode 9 / python 3
+
+## Khronos/Vulkan-HPP
+Vulkan-Hpp is a set of lightweight C++ bindings for the Vulkan API.
+
+* Repository: https://github.com/KhronosGroup/Vulkan-Hpp
+* License: [Apache](https://github.com/KhronosGroup/Vulkan-Hpp/blob/master/LICENSE.txt)
+* Contact: Markus Tavenrath <mtavenrath@nvidia.com>
+* Compiler requirements: MSVC 2013+ / gcc 4.8.2+ / clang 3.3+
+
+## Khronos/SPIRV-Cross
+SPIRV-Cross is a practical tool and library for performing reflection on SPIR-V and
+disassembling SPIR-V back to high level languages.
+
+* Repository: https://github.com/KhronosGroup/SPIRV-Cross
+* License: [Apache](https://github.com/KhronosGroup/SPIRV-Cross/blob/master/LICENSE)
+* Contacts:
+	* hans-kristian.arntzen@arm.com (@HansKristian-ARM)
+* Compiler requirements: MSVC 2013 / gcc 4.8/4.9+ / clang 3.x+
 
 ## DirectX Shader Compiler (DXC)
 DirectX Shader Compiler (DXC) is Microsoft's next-gen official HLSL compiler, based on LLVM/Clang.
@@ -54,43 +123,6 @@ Apart from compiling HLSL into DXIL, it can also compile HLSL into SPIR-V, thank
 * Compiler requirement: Visual Studio 2017
 * Download: https://khr.io/dxcappveyorbuild (rolling release)
 
-## Vulkan-LoaderAndValidationLayers
-Source code for the Vulkan loader and validation layers, Vulkan API header files, demos and tests.
-
-* Repository: https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers
-* License: [Apache](https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/blob/master/LICENSE.txt)
-* Contacts:
-    * Tobine Ehlis <tobine@google.com>
-    * Mark Lobodzinski <mark@lunarg.com>
-* Code of conduct: https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/blob/master/GOVERNANCE.md
-* Compiler requirements: MSVC 2013+ / gcc 4.8.2+ / clang 3.4+
-
-## MoltenVK
-MoltenVK is an implementation of the high-performance, industry-standard Vulkan graphics and compute API, that runs on Apple's Metal graphics framework, bringing Vulkan compatibility to iOS and macOS
-
-* Repository: https://github.com/KhronosGroup/MoltenVK
-* License: [Apache](https://github.com/KhronosGroup/MoltenVK/blob/master/LICENSE)
-* Contacts: bill.hollings@brenwill.com
-* Compiler requirements: Xcode 9 / python 3
-
-## Vulkan-HPP
-Vulkan-Hpp is a set of lightweight C++ bindings for the Vulkan API.
-
-* Repository: https://github.com/KhronosGroup/Vulkan-Hpp
-* License: [Apache](https://github.com/KhronosGroup/Vulkan-Hpp/blob/master/LICENSE.txt)
-* Contact: Markus Tavenrath <mtavenrath@nvidia.com>
-* Compiler requirements: MSVC 2013+ / gcc 4.8.2+ / clang 3.3+
-
-## SPIRV-Cross
-SPIRV-Cross is a practical tool and library for performing reflection on SPIR-V and
-disassembling SPIR-V back to high level languages.
-
-* Repository: https://github.com/KhronosGroup/SPIRV-Cross
-* License: [Apache](https://github.com/KhronosGroup/SPIRV-Cross/blob/master/LICENSE)
-* Contacts:
-	* hans-kristian.arntzen@arm.com (@HansKristian-ARM)
-* Compiler requirements: MSVC 2013 / gcc 4.8/4.9+ / clang 3.x+
-
 ## RenderDoc
 RenderDoc - a graphics debugger, currently available for Vulkan, D3D11, D3D12, and OpenGL development on Windows 7 - 10 and Linux.
 
@@ -103,7 +135,7 @@ RenderDoc - a graphics debugger, currently available for Vulkan, D3D11, D3D12, a
 * Code of conduct: [contributor covenant](https://github.com/baldurk/renderdoc/blob/v0.x/CODE_OF_CONDUCT.md)
 * Compiler requirements: MSVC 2015 / gcc 5 / clang 3.4
 
-## VulkanTools
+## LunarG/VulkanTools
 Source code for various Vulkan Tools: vktrace/vkreplay, device simulation layer, API dump layer, fps monitor layer, screenshot layer, assistant layer, layer factory framework, and Vulkan installation analyzer.
 
 * Repository: https://github.com/LunarG/VulkanTools
