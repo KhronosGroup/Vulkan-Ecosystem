@@ -163,3 +163,11 @@ Vulkano is a type-safe wrapper around Vulkan API in Rust.
 * Contacts:
   * [Vulkano on Gitter](https://gitter.im/vulkano-rs/Lobby)
 * Compiler requirements: Rust 1.22, gcc-4.8
+
+## VK²
+Wrapper to dramatically enhance Vulkan programming in Kotlin on the JVM. Strongly inspired by Vulkan hpp, it's shaped on the Sasha examples [port](https://github.com/java-opengl-labs/Vulkan). 
+* Repository: https://github.com/kotlin-graphics/vkk
+* License: [Apache 2.0](https://github.com/kotlin-graphics/vkk/blob/master/LICENSE)
+* Contacts:
+  * [#graphic on Slack](https://kotlinlang.slack.com)
+  * [Giuseppe Barbieri](mailto:elect86@gmail.com)
