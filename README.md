@@ -119,9 +119,9 @@ Apart from compiling HLSL into DXIL, it can also compile HLSL into SPIR-V, thank
 * Contacts:
   * Lei Zhang <antiagainst@google.com> (for SPIR-V CodeGen)
   * opencode@microsoft.com (for other issues)
-* Platform: Windows
-* Compiler requirement: Visual Studio 2017
-* Download: https://khr.io/dxcappveyorbuild (rolling release)
+* Platform: Windows, Linux, macOS
+* Compiler requirements: MSVC 2017 / GCC 5.5+ / Clang 3.8+
+* Download: https://khr.io/dxcappveyorbuild (rolling release for Windows)
 
 ## RenderDoc
 RenderDoc - a graphics debugger, currently available for Vulkan, D3D11, D3D12, and OpenGL development on Windows 7 - 10 and Linux.
