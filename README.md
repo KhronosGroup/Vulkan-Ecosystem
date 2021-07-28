@@ -10,7 +10,7 @@ The Vulkan ecosystem is a big place and there's a lot out there that is useful! 
 ## Khronos/Vulkan® Specification
 Vulkan® Specification - formal documentation of the Vulkan API. This includes the main API Specification, the reference (man) pages, the XML API Registry, and related tools and scripts.
 
-* Landing page: https://www.khronos.org/vulkan/
+* Landing page: https://www.vulkan.org/
 * Website: https://www.khronos.org/registry/vulkan/
 * Repository: https://github.com/KhronosGroup/Vulkan-Docs
 * License: [mixed](https://github.com/KhronosGroup/Vulkan-Docs/blob/1.0/COPYING.md) &mdash; approximately:
